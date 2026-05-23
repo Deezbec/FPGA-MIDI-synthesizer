@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpu_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cpu_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="245.801 ns"></ZoomEndTime>
+      <Cursor1Time time="754.900 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="146"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/cpu_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/pc" type="array">
+      <obj_property name="ElementShortName">pc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/new_pc" type="array">
+      <obj_property name="ElementShortName">new_pc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">new_pc[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/atan_table" type="array">
+      <obj_property name="ElementShortName">atan_table[0:30][31:0]</obj_property>
+      <obj_property name="ObjectShortName">atan_table[0:30][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/CMD_RAM" type="array">
+      <obj_property name="ElementShortName">CMD_RAM[0:15][37:0]</obj_property>
+      <obj_property name="ObjectShortName">CMD_RAM[0:15][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/RF" type="array">
+      <obj_property name="ElementShortName">RF[0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">RF[0:7][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/ro" type="logic">
+      <obj_property name="ElementShortName">ro</obj_property>
+      <obj_property name="ObjectShortName">ro</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/sincur" type="array">
+      <obj_property name="ElementShortName">sincur[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sincur[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">-32083.900000</obj_property>
+      <obj_property name="AnalogYRRangeMax">-18043.900000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/coscur" type="array">
+      <obj_property name="ElementShortName">coscur[15:0]</obj_property>
+      <obj_property name="ObjectShortName">coscur[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/sin" type="array">
+      <obj_property name="ElementShortName">sin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sin[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cos" type="array">
+      <obj_property name="ElementShortName">cos[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cos[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

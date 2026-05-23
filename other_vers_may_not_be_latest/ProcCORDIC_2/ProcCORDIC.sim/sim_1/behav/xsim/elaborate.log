@@ -1,0 +1,9 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: c:/Users/User/Desktop/Xilinx_Windows_Unpacked_2022_2/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'askMoreAtan' [c:/Users/User/Desktop/Xilinx_Windows_Unpacked_2022_2/PRJ/ProcCORDIC/ProcCORDIC.srcs/sim_1/new/cpu_tb.v:23]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

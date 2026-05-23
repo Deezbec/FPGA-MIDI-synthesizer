@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/User/ProcCORDIC/ProcCORDIC.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/User/ProcCORDIC/ProcCORDIC.srcs/sim_1/new/cpu_tb.v,1763982449,verilog,,,,cpu_tb,,,../../../../ProcCORDIC.srcs/sources_1/new,,,,,
+C:/Users/User/ProcCORDIC/ProcCORDIC.srcs/sources_1/new/CORDICcpuHEAD.v,1764061330,verilog,,C:/Users/User/ProcCORDIC/ProcCORDIC.srcs/sources_1/new/cpu.v,,CORDICcpuHEAD,,,../../../../ProcCORDIC.srcs/sources_1/new,,,,,
+C:/Users/User/ProcCORDIC/ProcCORDIC.srcs/sources_1/new/atan_table.vh,1763627981,verilog,,,,,,,,,,,,
+C:/Users/User/ProcCORDIC/ProcCORDIC.srcs/sources_1/new/cpu.v,1764079247,verilog,,C:/Users/User/ProcCORDIC/ProcCORDIC.srcs/sim_1/new/cpu_tb.v,C:/Users/User/ProcCORDIC/ProcCORDIC.srcs/sources_1/new/atan_table.vh,cpu,,,../../../../ProcCORDIC.srcs/sources_1/new,,,,,
